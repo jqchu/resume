@@ -12,6 +12,7 @@
     <style type="text/css">
       .p_title{font-size: 36; background: #ddd;}
       .p_content{font-size: 12;}
+	  
     </style>
 
   </head>
@@ -23,9 +24,10 @@
       <h2 class="project-tagline">chujiaqiang@outlook.com</h2>
       <a href="https://github.com/jqchu/resume" class="btn">View on GitHub</a>
       <a href="https://github.com/jqchu/resume/zipball/master" class="btn">Download .zip</a><br>
-      
-      <a href="http://jqchu.github.io/resume/index.html" class="btn">中文</a>
-      <a href="http://jqchu.github.io/resume/Resume.html" class="btn">English</a>
+      <select name="pageselect" onchange="self.location.href=options[selectedIndex].value" style="color:#000; background-color:#ddd;">
+      <option value="http://jqchu.github.io/resume/index.html" selected = "selected">中文</a>
+      <option value="http://jqchu.github.io/resume/Resume.html">English</a>
+	</select>
 
     </section>
 
